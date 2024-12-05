@@ -4,6 +4,8 @@ Creare una funzione per capire se la parola inserita è palindroma */
 //1 . Chiedere all'utente di inserire una parola
 const word = prompt("Inserisci una parola");
 //2 creare una funzione per capire invertire la parola selezionata
+
+
 function reversedword(word){
 //creare una variabile in cui andiamo ad incapsulare la parola scelta
     let reversed = "";
@@ -29,4 +31,10 @@ if(isPalindroma(word) === true){
     {
 }
 
+if(isPalindroma(word) === true){
+    console.log( `La parola ${word} è palindroma`)
+    } else
+    console.log(`la parola ${word} non è palindroma`)
+    {
+}
 
